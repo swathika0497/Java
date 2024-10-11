@@ -7,6 +7,7 @@ public class Main {
         obj.getRateOfInterest();
         obj.getHeadQuarterLocation();
 
+
         RBI obj1 = BankObjectFactory.getBankObject("sbi");
         obj1.bank();
         obj1.getRateOfInterest();

@@ -10,6 +10,6 @@ public class BaseClass {
 
 
   public BaseClass(){
-      System.out.println("THis is the base class constructor");
+      System.out.println("This is the base class constructor");
   }
 }

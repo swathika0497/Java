@@ -16,6 +16,9 @@ public class BankObjectFactory {
     // Only difference is int is a primitive data type which is created by Java
     // Class is a user defined data type which we create
 
+
+    //creating a method with return type as class. we do not need to inherit the class for creating a method with class data type
+
     public static RBI getBankObject(String bankName){
 
         if(bankName=="bob"){

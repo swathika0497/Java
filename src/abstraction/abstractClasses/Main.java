@@ -9,6 +9,7 @@ public class Main {
 
 //         Rectangle obj  =ObjectFactory.getRectangleObject();
 //         Square obj1 = ObjectFactory.getSquareObject();
+//        RBI object = new RBI() ;    // cannot create object for abstract classes
 
 
         RBI obj = BankObjectFactory.getBankObject("bob");

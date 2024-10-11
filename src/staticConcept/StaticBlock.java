@@ -2,8 +2,7 @@ package staticConcept;
 
 public class StaticBlock extends  BaseClass {
 
-
-    // Static members cannot be overrriden beause they are completely detached entity from the object
+    // Static members cannot be overridden because they are completely detached entity from the object
     // So there is no concept of overriding there
     // The static members are called with the class reference
     // So ParentClass.M1() will call M1() of the parent class
@@ -12,14 +11,14 @@ public class StaticBlock extends  BaseClass {
     int rollNo;
     static String collegeName;
     static int run;
-
     String studentName;
     public StaticBlock(int rollNo, String studentName){
         System.out.println("This is a  child constructor");
         this.rollNo=rollNo;
         this.studentName=studentName;
     }
-    static{ // This is a static block. This blocks get executed even before the constructor. This block gets executed only once. This block is used to initialize the static variable.
+    static{ // This is a static block. This blocks get executed even before the constructor.
+        // This block gets executed only once. This block is used to initialize the static variable.
         System.out.println("This is a child class static block");
         collegeName="SKCT";
         run=20;
